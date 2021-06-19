@@ -1,0 +1,185 @@
+
+                   /************navbar section(2)*********************/
+
+body{
+  font-family: "Montserrat"
+}
+.navbar-brand{
+  font-family:monospace;
+  font-size:2rem;
+  font-weight:bold;
+
+}
+#title{
+  color:white;
+  background-color:#4272f5;
+
+}
+
+.container-fluid{
+  padding:3% 15%;
+}
+
+                       /*changing navbar style*/
+
+.navbar{
+  padding:0 0 0.5rem;
+}
+
+.nav-item{
+  padding:0 10px;
+}
+
+.nav-link{
+  font-size:1rem;
+  font-family:'Arial';
+  font-weight:bold;
+}
+
+.download{
+  margin:5% 2% 3% 0%;
+}
+
+.images{
+  width:50%;
+  transform:rotate(20deg);
+  position:absolute;
+  right:33%;
+
+
+}
+
+  h1{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 3rem;
+    line-height:1;
+    font-weight:bold;
+  }
+
+.text{
+  text-align: center;
+  padding:3% 10%;
+}
+
+             /*********************features section(2)******************/
+
+#features{
+  padding:7% 15%;
+  position:relative;
+  z-index: 1;
+  background-color:white;
+
+}
+
+.box{
+  text-align:center;
+  padding:5%;
+}
+
+.icon{
+  color:red;
+  margin:1rem;
+}
+
+.icon:hover{
+  color:#4272f5;
+}
+
+                 /*************** testimonial section(3) **********************/
+
+#testimonials{
+  text-align:center;
+  background-color:#c91038;
+  color:white;
+}
+
+h2{
+font-size:2.5rem;
+line-height:1.4;
+font-weight:bold;
+font-family:monospace;
+}
+
+.test-image{
+ width:20%;
+ border-radius:100%;
+ margin:30px;
+}
+.test-image1{
+ width:20%;
+ border-radius:100%;
+ margin:30px;
+}
+
+#trust{
+  background-color:#9bbfcc;
+  color:inherit;
+  padding:7% 15%;
+  text-align:center;
+
+}
+.trust-image{
+padding:7%;
+width:30%;
+}
+.trust-image1{
+
+  background-color:black;
+}
+
+            /*********************4th section tetimonial part**************************/
+.carousel-item{
+  padding:7% 15%;
+}
+.carousel-inner{
+  padding:20px;
+}
+
+h4{
+color:grey;
+}
+
+              /******************* 5th section pricing part****************************/
+
+#pricing{
+  padding:60px;
+  text-align:center;
+  background-color:#67736b;
+}
+
+.pricing{
+  padding:3%;}
+
+              /*******6th section cta part*****/
+
+  #cta{
+    padding:7% 15%;
+    text-align:center;
+    background-color:#c91038;
+    color:#fff;
+
+  }
+  #footer{
+    padding:7% 15%;
+    text-align:center;
+    background-color:#67736b;
+    color:#fff;
+  }
+  .icon1{
+    margin:20px;
+  }
+  .icon1:hover{
+    color:#0da4d6;
+  }
+
+               /****************@Media query *************/
+
+@media(max-width:1100px){
+  .images{
+    position:static;
+    transform:rotate(0);
+  }
+  #title{
+   font-size:0.5rem;
+  }
+}
